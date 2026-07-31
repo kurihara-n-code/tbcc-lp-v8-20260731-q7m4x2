@@ -5534,3 +5534,9 @@ footer { padding: 34px 0 80px; color: var(--navy); background: #fff; font-size: 
   }
 }
 
+
+/* hero-last-pc-hidden-20260731 */
+@media (min-width: 768px) {
+  .hero-last { display: none; }
+}
+
