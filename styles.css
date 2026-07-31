@@ -5523,11 +5523,12 @@ footer { padding: 34px 0 80px; color: var(--navy); background: #fff; font-size: 
     padding-left: 8px;
   }
   .partner-message-emphasis .text-key {
-    margin-top: 0;
-    margin-bottom: 0;
+    display: inline;
+    margin: 0;
+    line-height: inherit;
   }
   .partner-message-emphasis .message-key-nowrap {
-    display: inline-block;
+    display: inline;
     white-space: nowrap;
     text-wrap: nowrap;
   }
