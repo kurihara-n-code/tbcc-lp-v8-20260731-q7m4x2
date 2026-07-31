@@ -5518,10 +5518,14 @@ footer { padding: 34px 0 80px; color: var(--navy); background: #fff; font-size: 
 
 /* message-key-nowrap-20260731 */
 @media (max-width: 767px) {
+  .partner-message p.partner-message-emphasis {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
   .partner-message-emphasis .message-key-nowrap {
     display: inline-block;
     white-space: nowrap;
-    font-size: .89em;
-    letter-spacing: -.055em;
+    text-wrap: nowrap;
   }
 }
+
