@@ -5461,51 +5461,24 @@ footer { padding: 34px 0 80px; color: var(--navy); background: #fff; font-size: 
 @media (max-width: 767px) {
   .instructor-featured-intro .instructor-role { font-size: 20px; }
 }
-/* founder-roles-responsive-20260731 */
+/* founder-roles-match-instructor-role-20260731 */
 .instructor-founder-roles {
   display: grid;
-  gap: 9px;
+  gap: 12px;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 .instructor-founder-roles li {
-  position: relative;
-  padding-left: 16px;
-  color: var(--red);
-  font-family: var(--sans);
-  font-size: clamp(16px, 1.55vw, 20px);
-  font-weight: 900;
-  line-height: 1.5;
-  letter-spacing: .02em;
-}
-.instructor-founder-roles li::before {
-  content: "";
-  position: absolute;
-  top: .32em;
-  bottom: .32em;
-  left: 0;
-  width: 4px;
-  border-radius: 999px;
-  background: var(--red);
+  margin: 0;
+  padding: 0;
 }
 @media (max-width: 767px) {
   .instructor-founder-roles {
-    gap: 8px;
+    gap: 10px;
   }
   .instructor-founder-roles li {
-    padding: 10px 11px 10px 13px;
-    background: #fff6f4;
-    border-left: 4px solid var(--red);
-    border-radius: 0 8px 8px 0;
-    color: var(--red);
-    font-size: clamp(13px, 3.7vw, 15px);
-    line-height: 1.55;
-    letter-spacing: 0;
     overflow-wrap: anywhere;
-  }
-  .instructor-founder-roles li::before {
-    display: none;
   }
 }
 
@@ -5538,5 +5511,11 @@ footer { padding: 34px 0 80px; color: var(--navy); background: #fff; font-size: 
 /* hero-last-pc-hidden-20260731 */
 @media (min-width: 768px) {
   .hero-last { display: none; }
+}
+
+
+/* achievement-break-mobile-20260731 */
+@media (max-width: 767px) {
+  .achievement-break-pc { display: none; }
 }
 
