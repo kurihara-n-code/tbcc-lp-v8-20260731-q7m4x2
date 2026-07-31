@@ -5321,7 +5321,7 @@ footer { padding: 34px 0 80px; color: var(--navy); background: #fff; font-size: 
 
 /* instructor-heading-gothic-and-principal-role-20260730 */
 .instructor-heading h2 { font-family: var(--sans); }
-.instructor-card-role-principal { font-size: 20px; font-weight: 900; }
+.instructor-card-role-principal { font-size: 18px; font-weight: 900; }
 
 /* comparison-heading-gothic-20260730 */
 .comparison-heading-accent { font-family: var(--sans); }
@@ -5478,10 +5478,18 @@ footer { padding: 34px 0 80px; color: var(--navy); background: #fff; font-size: 
     gap: 10px;
   }
   .instructor-founder-roles li {
+    font-size: 16px;
+    line-height: 1.45;
+    letter-spacing: .08em;
     overflow-wrap: anywhere;
   }
 }
 
+
+/* founder-role-break-pc-20260731 */
+@media (max-width: 767px) {
+  .founder-role-break-pc { display: none; }
+}
 
 /* hero-proof-pc-hidden-20260731 */
 @media (min-width: 768px) {
