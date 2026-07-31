@@ -5353,9 +5353,10 @@ footer { padding: 34px 0 80px; color: var(--navy); background: #fff; font-size: 
 }
 .course-certificate-issuer {
   display: flex;
-  align-items: baseline;
-  gap: 8px;
-  margin-bottom: 3px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  margin-bottom: 5px;
   color: #59647c;
   font-size: 12px;
   font-weight: 700;
@@ -5512,4 +5513,15 @@ footer { padding: 34px 0 80px; color: var(--navy); background: #fff; font-size: 
 /* hero-proof-pc-hidden-20260731 */
 @media (min-width: 768px) {
   .hero-proof { display: none; }
+}
+
+
+/* message-key-nowrap-20260731 */
+@media (max-width: 767px) {
+  .partner-message-emphasis .message-key-nowrap {
+    display: inline-block;
+    white-space: nowrap;
+    font-size: .89em;
+    letter-spacing: -.055em;
+  }
 }
